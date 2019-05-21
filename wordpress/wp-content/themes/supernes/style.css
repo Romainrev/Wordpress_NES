@@ -1,0 +1,4025 @@
+/********************** Bouttons ********************** */
+
+
+/*COULEURS*/
+/*BOUTONS*/
+/* line 76, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-primary {
+    box-shadow: 0px 15px 20px -9px rgba(38, 38, 38, 0.2);
+    padding: 10px 30px;
+    border-radius: 0;
+    background-color: transparent;
+    color: #fff !important;
+    border: none;
+    position: relative;
+    z-index: 50;
+    border: none;
+}
+
+/* line 20, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-primary::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    opacity: 1;
+    z-index: -1;
+    left: -10px;
+    top: -5px;
+}
+
+/* line 31, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-primary::after {
+    content: '';
+    background-color: #194a7d;
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+/* line 42, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-primary:hover {
+    background-color: transparent;
+    color: #fff !important;
+}
+
+/* line 46, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-primary:hover::before {
+    left: 0;
+    top: 0;
+}
+
+/* line 50, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-primary:hover::after {
+    background-color: transparent;
+    top: -10px;
+    left: -15px;
+}
+
+/* line 77, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-secondary {
+    box-shadow: 0px 15px 20px -9px rgba(38, 38, 38, 0.2);
+    padding: 10px 30px;
+    border-radius: 0;
+    background-color: transparent;
+    color: #194a7d !important;
+    border: 2px solid #194a7d;
+    position: relative;
+    z-index: 50;
+}
+
+/* line 66, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-secondary a {
+    color: #194a7d !important;
+}
+
+/* line 69, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-secondary:hover {
+    background-color: #194a7d;
+    border: 2px solid #194a7d;
+    color: #fff !important;
+}
+
+/* line 78, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-success {
+    box-shadow: 0px 15px 20px -9px rgba(38, 38, 38, 0.2);
+    padding: 10px 30px;
+    border-radius: 0;
+    background-color: transparent;
+    color: #fff !important;
+    border: none;
+    position: relative;
+    z-index: 50;
+    border: none;
+}
+
+/* line 20, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-success::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    opacity: 1;
+    z-index: -1;
+    left: -10px;
+    top: -5px;
+}
+
+/* line 31, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-success::after {
+    content: '';
+    background-color: #28a745;
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+/* line 42, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-success:hover {
+    background-color: transparent;
+    color: #fff !important;
+}
+
+/* line 46, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-success:hover::before {
+    left: 0;
+    top: 0;
+}
+
+/* line 50, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-success:hover::after {
+    background-color: transparent;
+    top: -10px;
+    left: -15px;
+}
+
+/* line 79, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-danger {
+    box-shadow: 0px 15px 20px -9px rgba(38, 38, 38, 0.2);
+    padding: 10px 30px;
+    border-radius: 0;
+    background-color: transparent;
+    color: #fff !important;
+    border: none;
+    position: relative;
+    z-index: 50;
+    border: none;
+}
+
+/* line 20, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-danger::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    opacity: 1;
+    z-index: -1;
+    left: -10px;
+    top: -5px;
+}
+
+/* line 31, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-danger::after {
+    content: '';
+    background-color: #dc3545;
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+/* line 42, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-danger:hover {
+    background-color: transparent;
+    color: #fff !important;
+}
+
+/* line 46, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-danger:hover::before {
+    left: 0;
+    top: 0;
+}
+
+/* line 50, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-danger:hover::after {
+    background-color: transparent;
+    top: -10px;
+    left: -15px;
+}
+
+/* line 80, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-warning {
+    box-shadow: 0px 15px 20px -9px rgba(38, 38, 38, 0.2);
+    padding: 10px 30px;
+    border-radius: 0;
+    background-color: transparent;
+    color: #fff !important;
+    border: none;
+    position: relative;
+    z-index: 50;
+    border: none;
+}
+
+/* line 20, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-warning::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    opacity: 1;
+    z-index: -1;
+    left: -10px;
+    top: -5px;
+}
+
+/* line 31, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-warning::after {
+    content: '';
+    background-color: #ffc107;
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+/* line 42, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-warning:hover {
+    background-color: transparent;
+    color: #fff !important;
+}
+
+/* line 46, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-warning:hover::before {
+    left: 0;
+    top: 0;
+}
+
+/* line 50, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-warning:hover::after {
+    background-color: transparent;
+    top: -10px;
+    left: -15px;
+}
+
+/* line 81, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-info {
+    border: none;
+}
+
+/* line 82, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-light {
+    box-shadow: 0px 15px 20px -9px rgba(38, 38, 38, 0.2);
+    padding: 10px 30px;
+    border-radius: 0;
+    background-color: transparent;
+    color: #fff !important;
+    border: 2px solid #fff;
+    position: relative;
+    z-index: 50;
+}
+
+/* line 66, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-light a {
+    color: #fff !important;
+}
+
+/* line 69, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-light:hover {
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #194a7d !important;
+}
+
+/* line 83, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-dark {
+    box-shadow: 0px 15px 20px -9px rgba(38, 38, 38, 0.2);
+    padding: 10px 30px;
+    border-radius: 0;
+    background-color: transparent;
+    color: #fff !important;
+    border: none;
+    position: relative;
+    z-index: 50;
+    border: none;
+}
+
+/* line 20, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-dark::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    opacity: 1;
+    z-index: -1;
+    left: -10px;
+    top: -5px;
+}
+
+/* line 31, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-dark::after {
+    content: '';
+    background-color: #343a40;
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+/* line 42, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-dark:hover {
+    background-color: transparent;
+    color: #fff !important;
+}
+
+/* line 46, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-dark:hover::before {
+    left: 0;
+    top: 0;
+}
+
+/* line 50, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-dark:hover::after {
+    background-color: transparent;
+    top: -10px;
+    left: -15px;
+}
+
+/* line 85, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+button:focus, a:focus {
+    outline: 0 !important;
+}
+
+/*# sourceMappingURL=buttons.css.map */
+
+/****************** Fin des Bouttons *******************/
+
+/****************** Footer ********************/
+
+/*COULEURS*/
+/* line 10, ../../../../../Users/Skalv/Desktop/scss/components/footer.scss */
+footer {
+    background-color: #fff;
+    border-top: 1px solid #e3e3e3;
+    padding: 50px 0;
+}
+
+/* line 14, ../../../../../Users/Skalv/Desktop/scss/components/footer.scss */
+footer .bloc-footer {
+    margin-bottom: 20px;
+}
+
+/* line 16, ../../../../../Users/Skalv/Desktop/scss/components/footer.scss */
+footer .bloc-footer h5 {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+/* line 23, ../../../../../Users/Skalv/Desktop/scss/components/footer.scss */
+footer .bloc-footer ul {
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+/* line 26, ../../../../../Users/Skalv/Desktop/scss/components/footer.scss */
+footer .bloc-footer ul li {
+    list-style: none;
+    padding: 5px 0;
+    font-size: 1em;
+    color: #848383;
+}
+
+/* line 31, ../../../../../Users/Skalv/Desktop/scss/components/footer.scss */
+footer .bloc-footer ul li::before {
+    display: none;
+}
+
+/* line 34, ../../../../../Users/Skalv/Desktop/scss/components/footer.scss */
+footer .bloc-footer ul li a {
+    color: #848383;
+}
+
+/* line 36, ../../../../../Users/Skalv/Desktop/scss/components/footer.scss */
+footer .bloc-footer ul li a:hover {
+    color: #194a7d;
+    margin-left: 3px;
+}
+
+/* line 44, ../../../../../Users/Skalv/Desktop/scss/components/footer.scss */
+footer .copyright {
+    border-top: 1px solid #e3e3e3;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+/*********************************/
+/*MEDIA QUERIES*/
+/*********************************/
+@media (max-width: 564px) {
+    /* line 57, ../../../../../Users/Skalv/Desktop/scss/components/footer.scss */
+    footer .bloc-footer {
+        text-align: center;
+    }
+
+    /* line 60, ../../../../../Users/Skalv/Desktop/scss/components/footer.scss */
+    footer .copyright {
+        margin-top: 0;
+        padding-top: 0;
+    }
+}
+
+/*# sourceMappingURL=footer.css.map */
+
+/******************** Fin du Footer ************************/
+
+/******************** HEADER ***************************/
+
+@charset "UTF-8";
+/*COULEURS*/
+/* line 10, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header {
+    background: transparent;
+    /* Old browsers */
+    /*background: -moz-linear-gradient(top, #ffffff 0%, #eeeeee 100%); /* FF3.6-15 */
+    /*background: -webkit-linear-gradient(top, #ffffff 0%,#eeeeee 100%); /* Chrome10-25,Safari5.1-6 */
+    /*background: linear-gradient(to bottom, #ffffff 0%,#eeeeee 100%);  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    /*li*/
+    /*li a*/
+    /*Deuxième niveau de menu (li a div)*/
+    /*Réseaux sociaux*/
+}
+
+/* line 19, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .navbar {
+    padding: 0.5rem 2rem;
+    /*LOGO*/
+}
+
+/* line 22, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .navbar .navbar-brand {
+    position: relative;
+}
+
+/* line 24, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .navbar .navbar-brand::before {
+    content: '';
+    background: #fff;
+    width: 300px;
+    left: -100px;
+    bottom: -20px;
+    height: 300px;
+    border-radius: 45px;
+    transform: rotate(10deg);
+    position: absolute;
+    z-index: -1;
+}
+
+/* line 39, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .nav-item::before {
+    display: none;
+}
+
+/* line 43, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .nav-link {
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 30px;
+    position: relative;
+    font-size: 0.9em;
+}
+
+/* line 49, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .nav-link::before, #Header .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    opacity: 0;
+    border: 2px solid #d94f5c;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    -webkit-transition-timing-function: cubic-bezier(0.17, 0.67, 0.05, 1.29);
+    transition-timing-function: cubic-bezier(0.17, 0.67, 0.05, 1.29);
+}
+
+/* line 61, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .nav-link::before {
+    top: 0;
+    left: 0;
+    border-width: 2px 0 0 2px;
+    -webkit-transform: translate3d(10px, 10px, 0);
+    transform: translate3d(10px, 10px, 0);
+}
+
+/* line 68, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .nav-link::after {
+    right: 0;
+    bottom: 0;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: translate3d(-10px, -10px, 0);
+    transform: translate3d(-10px, -10px, 0);
+}
+
+/* line 75, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .nav-link:hover {
+    color: #fff;
+}
+
+/* line 78, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .nav-link:hover::before, #Header .nav-link:hover::after {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+/* line 85, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .dropdown-menu {
+    border: 0;
+    margin: 0;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.2);
+    z-index: 70;
+    display: none;
+}
+
+/* line 91, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .dropdown-menu::before {
+    position: absolute;
+    content: "";
+    top: -0.625rem;
+    right: calc(60px + 0.15em);
+    width: 0;
+    height: 0;
+    border-top: 0;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    border-left: 10px solid transparent;
+}
+
+/* line 103, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .dropdown-menu .dropdowncontent {
+    display: flex;
+}
+
+/* line 105, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .dropdown-menu .dropdowncontent div {
+    width: 100%;
+}
+
+/* line 109, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .dropdown-menu a.dropdown-item:not(:last-child) {
+    position: relative;
+    margin-right: 20px;
+    border-bottom: 1px solid #ececec;
+}
+
+/* line 115, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .dropdown:hover .dropdown-menu, #Header .dropdown:active .dropdown-menu {
+    display: block;
+}
+
+/* line 119, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .rs-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* line 122, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .rs-nav .nav-link {
+    margin: 0;
+    padding-right: 0;
+}
+
+/* line 125, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .rs-nav .nav-link::before, #Header .rs-nav .nav-link::after {
+    display: none;
+}
+
+/* line 128, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .rs-nav .nav-link:hover {
+    opacity: 0.5;
+}
+
+/*********************************/
+/*MEDIA QUERIES*/
+/*********************************/
+@media (max-width: 1200px) {
+    /* line 142, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .dropdown-menu {
+        box-shadow: none;
+    }
+
+    /* line 144, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .dropdown-menu .dropdowncontent {
+        justify-content: space-around;
+    }
+
+    /* line 147, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .dropdown-menu::before {
+        display: none;
+    }
+
+    /* line 151, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .nav-link {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* line 159, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header {
+        position: relative;
+        background: -moz-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #ffffff 0%, #eeeeee 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    }
+
+    /* line 164, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .navbar-brand::before {
+        display: none;
+    }
+
+    /* line 167, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .nav-link {
+        text-transform: uppercase;
+        color: #194a7d;
+    }
+
+    /* line 171, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .navbar-collapse {
+        border-top: 1px solid lightgray;
+        background: #e8e8e8;
+        margin: 0 -30px;
+        padding: 0 15px;
+    }
+
+    /* line 176, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .navbar-collapse .nav-item:not(.rs-link) .nav-link {
+        border-bottom: 1px solid #d0d0d0;
+    }
+
+    /* line 178, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .navbar-collapse .nav-item:not(.rs-link) .nav-link::before, #Header .navbar-collapse .nav-item:not(.rs-link) .nav-link::after {
+        display: none;
+    }
+
+    /* line 183, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .navbar-collapse .dropdown.show .dropdown-menu {
+        display: block !important;
+        margin: 10px 0;
+        border-left: 5px solid #d0d0d0;
+        background-color: transparent;
+        border-radius: 0;
+    }
+
+    /* line 190, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .navbar-collapse .dropdown:hover .dropdown-menu {
+        display: none;
+    }
+
+    /* line 194, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .navbar-collapse .dropdown .dropdowncontent div {
+        width: 100%;
+    }
+
+    /* line 196, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .navbar-collapse .dropdown .dropdowncontent div a.dropdown-item:not(:last-child) {
+        border-bottom: 1px solid none;
+    }
+
+    /* line 199, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .navbar-collapse .dropdown .dropdowncontent div .dropdown-item:hover, #Header .navbar-collapse .dropdown .dropdowncontent div .dropdown-item:focus {
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 564px) {
+    /* line 210, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .navbar-brand img {
+        width: 70%;
+    }
+}
+
+/*# sourceMappingURL=header.css.map */
+
+/*********************** Fin du HEADER ****************************/
+
+/*********************** Sliders **********************************/
+/*COULEURS*/
+/*SLIDER*/
+/* line 11, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+.NesSlider {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+}
+
+/* line 20, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+.NesSlider .image-slider {
+    margin: 0;
+    padding: 0;
+}
+
+/* line 23, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+.NesSlider .image-slider li {
+    height: 100% !important;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    z-index: 0;
+    opacity: 0;
+    -webkit-animation: fade-out 10s infinite both;
+    animation: fade-out 10s infinite both;
+    background-image: url(/images/slider/banner-1.jpg);
+}
+
+/* line 36, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+.NesSlider .image-slider li::before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #d94f5c;
+    top: 15px;
+    left: -15px;
+    border-width: 2px 0 0 2px;
+}
+
+/* line 47, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+.NesSlider .image-slider li:nth-child(2) {
+    background-image: url(/images/slider/banner-2.jpg);
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+}
+
+/* line 52, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+.NesSlider .image-slider li:nth-child(3) {
+    background-image: url(/images/slider/banner-3.jpg);
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s;
+}
+
+/* line 58, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+.NesSlider .text-slider {
+    position: relative;
+    max-width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+/* line 69, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+.NesSlider .text-slider h1 {
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: 100;
+    font-size: 4em;
+}
+
+/* line 75, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+.NesSlider .text-slider h2 {
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+/* line 80, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+.NesSlider .text-slider .btn {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+/* line 85, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+.NesSlider::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(24, 53, 76, 0.6);
+    z-index: 0;
+}
+
+/*----------------------------------------------
+  --Fade out for slider
+  -----------------------------------------------  */
+@-webkit-keyframes fade-out {
+    33% {
+        opacity: 1;
+    }
+    66% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes fade-out {
+    33% {
+        opacity: 1;
+    }
+    66% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade-out {
+    33% {
+        opacity: 1;
+    }
+    66% {
+        opacity: 0;
+    }
+}
+
+/*********************************/
+/*MEDIA QUERIES*/
+/*********************************/
+@media (max-width: 992px) {
+    /* line 123, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+    .NesSlider .text-slider {
+        max-width: 100%;
+        align-items: center;
+        margin-left: 0;
+        text-align: center;
+        padding: 20px;
+    }
+
+    /* line 129, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+    .NesSlider .text-slider h1 {
+        font-size: 3em;
+    }
+
+    /* line 132, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+    .NesSlider .text-slider h2 {
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 767px) {
+    /* line 140, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+    .NesSlider {
+        height: 60vh;
+    }
+
+    /* line 143, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+    .NesSlider .text-slider h1 {
+        font-size: 1.8em;
+    }
+
+    /* line 146, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+    .NesSlider .text-slider h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 564px) {
+    /* line 156, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+    .NesSlider .text-slider h1 {
+        font-size: 1.5em;
+    }
+
+    /* line 159, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+    .NesSlider .text-slider h2 {
+        font-size: 1em;
+    }
+}
+
+/*# sourceMappingURL=slider.css.map */
+
+/**************** Fin Sliders ************************************/
+
+/**************** TITRES ****************************/
+
+/*COULEURS*/
+/* line 10, ../../../../../Users/Skalv/Desktop/scss/components/titres.scss */
+h1 {
+    font-size: 3em;
+    color: #194a7d;
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+/* line 17, ../../../../../Users/Skalv/Desktop/scss/components/titres.scss */
+h2 {
+    font-size: 1.2em;
+    color: #194a7d;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+/* line 24, ../../../../../Users/Skalv/Desktop/scss/components/titres.scss */
+h3 {
+    font-size: 3em;
+    color: #3b526b;
+    font-family: "Roboto";
+    font-weight: 300;
+    position: relative;
+    display: table;
+    padding: 20px 30px;
+    z-index: 2;
+}
+
+/* line 33, ../../../../../Users/Skalv/Desktop/scss/components/titres.scss */
+h3::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #e6e6e6;
+    z-index: -1;
+    left: -20px;
+    top: -10px;
+}
+
+/* line 43, ../../../../../Users/Skalv/Desktop/scss/components/titres.scss */
+h3::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #a7a7a7;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+/* line 53, ../../../../../Users/Skalv/Desktop/scss/components/titres.scss */
+h3.title-content {
+    text-align: center;
+}
+
+/* line 58, ../../../../../Users/Skalv/Desktop/scss/components/titres.scss */
+h4 {
+    font-size: 1.2em;
+    color: #3b526b;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+/*********************************/
+/*MEDIA QUERIES*/
+/*********************************/
+@media (max-width: 992px) {
+    /* line 70, ../../../../../Users/Skalv/Desktop/scss/components/titres.scss */
+    h3 {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 564px) {
+    /* line 76, ../../../../../Users/Skalv/Desktop/scss/components/titres.scss */
+    h3 {
+        font-size: 1.8em;
+        margin-bottom: 30px !important;
+    }
+}
+
+/*# sourceMappingURL=titres.css.map */
+
+
+/****************** Fin Titre ***********************/
+
+/****************** Accueil **************************/
+
+/*COULEURS*/
+/* line 15, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.content {
+    padding: 100px 0;
+}
+
+/*SERVICES*/
+/* line 20, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services {
+    background-color: #f5f5f5;
+    padding: 100px 35px;
+}
+
+/* line 23, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services {
+    margin-top: 70px;
+}
+
+/* line 25, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service {
+    background-color: #fff;
+    box-shadow: 0px 16px 34px -9px rgba(38, 38, 38, 0.3);
+    padding-bottom: 20px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    min-height: 325px;
+    position: relative;
+    transition: all 0.2s;
+}
+
+/* line 34, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service .img-service {
+    margin-bottom: 30px;
+    position: relative;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* line 41, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service .img-service .title-service {
+    position: absolute;
+    z-index: 999;
+}
+
+/* line 44, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service .img-service .title-service a {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    font-weight: 100;
+    font-size: 1em;
+    left: 0;
+    position: relative;
+}
+
+/* line 53, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service .img-service .title-service a::after {
+    content: ">";
+    opacity: 0;
+    right: -35px;
+    top: 4px;
+    color: #3b526b;
+    position: absolute;
+    padding: 3px 12px;
+    background-color: #fff;
+}
+
+/* line 63, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service .img-service .title-service a:hover {
+    background: rgba(0, 0, 0, 0.9);
+    border: 2px solid rgba(0, 0, 0, 0.9);
+}
+
+/* line 67, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service .img-service .title-service a:hover::after {
+    right: -28px;
+}
+
+/* line 72, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service .img-service img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+/* line 78, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service .text-service {
+    padding: 0 20px;
+}
+
+/* line 81, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service .description-service {
+    font-size: 0.8em;
+}
+
+/* line 84, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 15px 42px 0px rgba(38, 38, 38, 0.2);
+}
+
+/* line 87, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service:hover .title-service a {
+    left: -10px !important;
+}
+
+/* line 89, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service:hover .title-service a::after {
+    opacity: 1;
+    right: -20px;
+    top: 4px;
+}
+
+/*PHILOSOPHIE*/
+/* line 101, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-philosophie {
+    position: relative;
+    z-index: 999;
+}
+
+/* line 104, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-philosophie .container-philosophie {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* line 108, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-philosophie .container-philosophie .text-philosophie {
+    background-color: #fff;
+    padding: 35px;
+    margin-left: -10%;
+    width: 39%;
+    position: relative;
+    box-shadow: 0px 33px 106px -35px rgba(0, 0, 0, 0.3);
+}
+
+/* line 116, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-philosophie .container-philosophie .img-philosophie {
+    margin-left: 0%;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 50%;
+    box-shadow: 0px 13px 48px 0px rgba(0, 0, 0, 0.4);
+}
+
+/* line 124, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-philosophie .container-philosophie h3 {
+    margin-bottom: 64px;
+}
+
+/* line 127, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-philosophie .container-philosophie button {
+    margin-top: 35px;
+}
+
+/*PROXIMITE*/
+/* line 134, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-proximite {
+    background: url("/images/background-proximite.jpg") no-repeat top center;
+    background-size: cover;
+    margin-top: -150px;
+    padding-top: 220px;
+    position: relative;
+}
+
+/* line 140, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-proximite .container-proximite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+/* line 146, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-proximite .container-proximite .text-proximite {
+    padding: 50px;
+}
+
+/* line 148, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-proximite .container-proximite .text-proximite .rs-icon {
+    display: inline;
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: transparent;
+    border-radius: 50%;
+    font-size: 1.3em;
+}
+
+/* line 155, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-proximite .container-proximite .text-proximite .rs-icon.facebook {
+    border: 2px solid #4267B2;
+    color: #4267B2;
+}
+
+/* line 156, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-proximite .container-proximite .text-proximite .rs-icon.twitter {
+    border: 2px solid #1DA1F2;
+    color: #1DA1F2;
+}
+
+/* line 157, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-proximite .container-proximite .text-proximite .rs-icon.instagram {
+    border: 2px solid #C62D8F;
+    color: #C62D8F;
+}
+
+/* line 158, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-proximite .container-proximite .text-proximite .rs-icon.linkedin {
+    border: 2px solid #0077B5;
+    color: #0077B5;
+}
+
+/* line 161, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-proximite .container-proximite .img-proximite {
+    position: relative;
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* line 167, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-proximite .container-proximite h3 {
+    margin-bottom: 64px;
+}
+
+/*PARTENAIRES*/
+/* line 174, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-partenaires {
+    background: url("/images/background-partenaire.jpg") no-repeat #f4f4f4;
+    background-size: cover;
+}
+
+/* line 177, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-partenaires h4 {
+    color: #174371;
+}
+
+/* line 180, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-partenaires .bloc-partenaires {
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 21px 52px 0px rgba(0, 0, 0, 0.14);
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* line 189, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-partenaires .bloc-partenaires img {
+    padding: 20px;
+}
+
+/* line 193, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-partenaires .bloc-call-to-action {
+    border-top: 3px solid #c4c3c3;
+    margin-top: 70px;
+    padding: 40px 0;
+}
+
+/* line 197, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-partenaires .bloc-call-to-action .btn {
+    font-size: 1.5em;
+    padding: 15px 35px;
+}
+
+/*********************************/
+/*MEDIA QUERIES*/
+/*********************************/
+@media (max-width: 1200px) {
+    /*SERVICES*/
+    /* line 210, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-services .container-services .block-service .img-service .title-service a {
+        padding: 10px 15px;
+    }
+
+    /*PHILOSOPHIE & PROXIMITE*/
+    /* line 216, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-philosophie .container-philosophie .text-philosophie {
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /* line 221, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-philosophie .container-philosophie .img-philosophie {
+        width: 80%;
+    }
+
+    /* line 224, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-philosophie .container-philosophie h3 {
+        margin: 0 auto;
+        margin-bottom: 64px;
+    }
+
+    /* line 228, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-philosophie .container-philosophie button {
+        margin-top: 35px;
+    }
+
+    /* line 234, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-proximite .container-proximite .img-proximite, section.section-philosophie .container-philosophie .img-philosophie {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    /* line 240, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-proximite .container-proximite .text-proximite {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    /* line 247, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    #Header .rs-nav {
+        display: flex;
+        position: absolute;
+        justify-content: stretch;
+        bottom: 0;
+        right: 50px;
+    }
+
+    /* line 255, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-proximite {
+        margin-top: 0;
+        padding-top: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* line 262, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    #Header .rs-nav {
+        position: unset;
+        justify-content: space-around;
+    }
+
+    /* line 267, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.content {
+        padding: 50px 0;
+    }
+
+    /*SERVICES*/
+    /* line 272, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-services {
+        padding-bottom: 30px;
+    }
+
+    /*PHILOSOPHIE & PROXIMITE*/
+    /* line 277, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-philosophie {
+        padding-top: 30px;
+    }
+
+    /* line 281, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-proximite .container-proximite .img-proximite, section.section-philosophie .container-philosophie .img-philosophie {
+        max-width: 100%;
+    }
+
+    /*PARTENAIRES*/
+    /* line 286, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-partenaires {
+        background: #f4f4f4;
+    }
+}
+
+@media (max-width: 564px) {
+    /* line 292, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-proximite .container-proximite .text-proximite {
+        padding: 30px 15px;
+    }
+}
+
+/*# sourceMappingURL=accueil.css.map */
+
+/****************** Fin Accueil ****************************/
+
+/****************** MAIN **********************************/
+
+@charset "UTF-8";
+/*COULEURS*/
+/*RESEAUX SOCIAUX*/
+/*BALISES DE BASE*/
+/* line 17, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+body {
+    background: #FFF;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 1em;
+    color: #4d4d4d;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/* line 27, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+main {
+    display: block;
+}
+
+/* line 31, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+button, .btn, a, input[type="submit"], *::before, *::after {
+    transition: 0.2s all;
+}
+
+/* line 35, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+a {
+    color: #194a7d;
+}
+
+/* line 37, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+a:hover {
+    color: #3b526b;
+    text-decoration: none;
+}
+
+/* line 43, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+ul {
+    margin-left: 15px;
+}
+
+/* line 45, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+ul li {
+    list-style: none;
+    position: relative;
+    padding: 5px 0;
+}
+
+/* line 49, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+ul li::before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #d94f5c;
+    top: 15px;
+    left: -15px;
+    border-width: 2px 0 0 2px;
+}
+
+/*BREADCRUMB*/
+/* line 64, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+.breadcrumb a {
+    color: #194a7d !important;
+}
+
+/* line 66, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+.breadcrumb a::after {
+    display: none !important;
+}
+
+/*CLASSES REUTILISABLES*/
+/* line 73, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+.img-fluid {
+    width: 100%;
+}
+
+/* line 77, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+.text-important {
+    color: #255d99;
+}
+
+/* line 81, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+.center-block {
+    margin: 0 auto;
+}
+
+/* line 86, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+ul.sans-puces li::before {
+    display: none;
+}
+
+/*COULEURS*/
+/* line 10, ../../../../../Users/Skalv/Desktop/scss/components/titres.scss */
+h1 {
+    font-size: 3em;
+    color: #194a7d;
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+/* line 17, ../../../../../Users/Skalv/Desktop/scss/components/titres.scss */
+h2 {
+    font-size: 1.2em;
+    color: #194a7d;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+/* line 24, ../../../../../Users/Skalv/Desktop/scss/components/titres.scss */
+h3 {
+    font-size: 3em;
+    color: #3b526b;
+    font-family: "Roboto";
+    font-weight: 300;
+    position: relative;
+    display: table;
+    padding: 20px 30px;
+    z-index: 2;
+}
+
+/* line 33, ../../../../../Users/Skalv/Desktop/scss/components/titres.scss */
+h3::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #e6e6e6;
+    z-index: -1;
+    left: -20px;
+    top: -10px;
+}
+
+/* line 43, ../../../../../Users/Skalv/Desktop/scss/components/titres.scss */
+h3::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #a7a7a7;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+/* line 53, ../../../../../Users/Skalv/Desktop/scss/components/titres.scss */
+h3.title-content {
+    text-align: center;
+}
+
+/* line 58, ../../../../../Users/Skalv/Desktop/scss/components/titres.scss */
+h4 {
+    font-size: 1.2em;
+    color: #3b526b;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+/*********************************/
+/*MEDIA QUERIES*/
+/*********************************/
+@media (max-width: 992px) {
+    /* line 70, ../../../../../Users/Skalv/Desktop/scss/components/titres.scss */
+    h3 {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 564px) {
+    /* line 76, ../../../../../Users/Skalv/Desktop/scss/components/titres.scss */
+    h3 {
+        font-size: 1.8em;
+        margin-bottom: 30px !important;
+    }
+}
+
+/*COULEURS*/
+/*BOUTONS*/
+/* line 76, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-primary {
+    box-shadow: 0px 15px 20px -9px rgba(38, 38, 38, 0.2);
+    padding: 10px 30px;
+    border-radius: 0;
+    background-color: transparent;
+    color: #fff !important;
+    border: none;
+    position: relative;
+    z-index: 50;
+    border: none;
+}
+
+/* line 20, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-primary::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    opacity: 1;
+    z-index: -1;
+    left: -10px;
+    top: -5px;
+}
+
+/* line 31, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-primary::after {
+    content: '';
+    background-color: #194a7d;
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+/* line 42, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-primary:hover {
+    background-color: transparent;
+    color: #fff !important;
+}
+
+/* line 46, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-primary:hover::before {
+    left: 0;
+    top: 0;
+}
+
+/* line 50, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-primary:hover::after {
+    background-color: transparent;
+    top: -10px;
+    left: -15px;
+}
+
+/* line 77, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-secondary {
+    box-shadow: 0px 15px 20px -9px rgba(38, 38, 38, 0.2);
+    padding: 10px 30px;
+    border-radius: 0;
+    background-color: transparent;
+    color: #194a7d !important;
+    border: 2px solid #194a7d;
+    position: relative;
+    z-index: 50;
+}
+
+/* line 66, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-secondary a {
+    color: #194a7d !important;
+}
+
+/* line 69, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-secondary:hover {
+    background-color: #194a7d;
+    border: 2px solid #194a7d;
+    color: #fff !important;
+}
+
+/* line 78, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-success {
+    box-shadow: 0px 15px 20px -9px rgba(38, 38, 38, 0.2);
+    padding: 10px 30px;
+    border-radius: 0;
+    background-color: transparent;
+    color: #fff !important;
+    border: none;
+    position: relative;
+    z-index: 50;
+    border: none;
+}
+
+/* line 20, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-success::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    opacity: 1;
+    z-index: -1;
+    left: -10px;
+    top: -5px;
+}
+
+/* line 31, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-success::after {
+    content: '';
+    background-color: #28a745;
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+/* line 42, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-success:hover {
+    background-color: transparent;
+    color: #fff !important;
+}
+
+/* line 46, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-success:hover::before {
+    left: 0;
+    top: 0;
+}
+
+/* line 50, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-success:hover::after {
+    background-color: transparent;
+    top: -10px;
+    left: -15px;
+}
+
+/* line 79, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-danger {
+    box-shadow: 0px 15px 20px -9px rgba(38, 38, 38, 0.2);
+    padding: 10px 30px;
+    border-radius: 0;
+    background-color: transparent;
+    color: #fff !important;
+    border: none;
+    position: relative;
+    z-index: 50;
+    border: none;
+}
+
+/* line 20, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-danger::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    opacity: 1;
+    z-index: -1;
+    left: -10px;
+    top: -5px;
+}
+
+/* line 31, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-danger::after {
+    content: '';
+    background-color: #dc3545;
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+/* line 42, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-danger:hover {
+    background-color: transparent;
+    color: #fff !important;
+}
+
+/* line 46, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-danger:hover::before {
+    left: 0;
+    top: 0;
+}
+
+/* line 50, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-danger:hover::after {
+    background-color: transparent;
+    top: -10px;
+    left: -15px;
+}
+
+/* line 80, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-warning {
+    box-shadow: 0px 15px 20px -9px rgba(38, 38, 38, 0.2);
+    padding: 10px 30px;
+    border-radius: 0;
+    background-color: transparent;
+    color: #fff !important;
+    border: none;
+    position: relative;
+    z-index: 50;
+    border: none;
+}
+
+/* line 20, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-warning::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    opacity: 1;
+    z-index: -1;
+    left: -10px;
+    top: -5px;
+}
+
+/* line 31, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-warning::after {
+    content: '';
+    background-color: #ffc107;
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+/* line 42, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-warning:hover {
+    background-color: transparent;
+    color: #fff !important;
+}
+
+/* line 46, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-warning:hover::before {
+    left: 0;
+    top: 0;
+}
+
+/* line 50, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-warning:hover::after {
+    background-color: transparent;
+    top: -10px;
+    left: -15px;
+}
+
+/* line 81, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-info {
+    border: none;
+}
+
+/* line 82, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-light {
+    box-shadow: 0px 15px 20px -9px rgba(38, 38, 38, 0.2);
+    padding: 10px 30px;
+    border-radius: 0;
+    background-color: transparent;
+    color: #fff !important;
+    border: 2px solid #fff;
+    position: relative;
+    z-index: 50;
+}
+
+/* line 66, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-light a {
+    color: #fff !important;
+}
+
+/* line 69, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-light:hover {
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #194a7d !important;
+}
+
+/* line 83, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-dark {
+    box-shadow: 0px 15px 20px -9px rgba(38, 38, 38, 0.2);
+    padding: 10px 30px;
+    border-radius: 0;
+    background-color: transparent;
+    color: #fff !important;
+    border: none;
+    position: relative;
+    z-index: 50;
+    border: none;
+}
+
+/* line 20, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-dark::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    opacity: 1;
+    z-index: -1;
+    left: -10px;
+    top: -5px;
+}
+
+/* line 31, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-dark::after {
+    content: '';
+    background-color: #343a40;
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+/* line 42, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-dark:hover {
+    background-color: transparent;
+    color: #fff !important;
+}
+
+/* line 46, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-dark:hover::before {
+    left: 0;
+    top: 0;
+}
+
+/* line 50, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+.btn-dark:hover::after {
+    background-color: transparent;
+    top: -10px;
+    left: -15px;
+}
+
+/* line 85, ../../../../../Users/Skalv/Desktop/scss/components/buttons.scss */
+button:focus, a:focus {
+    outline: 0 !important;
+}
+
+/*COULEURS*/
+/*SLIDER*/
+/* line 11, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+.NesSlider {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+}
+
+/* line 20, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+.NesSlider .image-slider {
+    margin: 0;
+    padding: 0;
+}
+
+/* line 23, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+.NesSlider .image-slider li {
+    height: 100% !important;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    z-index: 0;
+    opacity: 0;
+    -webkit-animation: fade-out 10s infinite both;
+    animation: fade-out 10s infinite both;
+    background-image: url(/images/slider/banner-1.jpg);
+}
+
+/* line 36, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+.NesSlider .image-slider li::before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #d94f5c;
+    top: 15px;
+    left: -15px;
+    border-width: 2px 0 0 2px;
+}
+
+/* line 47, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+.NesSlider .image-slider li:nth-child(2) {
+    background-image: url(/images/slider/banner-2.jpg);
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+}
+
+/* line 52, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+.NesSlider .image-slider li:nth-child(3) {
+    background-image: url(/images/slider/banner-3.jpg);
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s;
+}
+
+/* line 58, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+.NesSlider .text-slider {
+    position: relative;
+    max-width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+/* line 69, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+.NesSlider .text-slider h1 {
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: 100;
+    font-size: 4em;
+}
+
+/* line 75, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+.NesSlider .text-slider h2 {
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+/* line 80, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+.NesSlider .text-slider .btn {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+/* line 85, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+.NesSlider::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(24, 53, 76, 0.6);
+    z-index: 0;
+}
+
+/*----------------------------------------------
+  --Fade out for slider
+  -----------------------------------------------  */
+@-webkit-keyframes fade-out {
+    33% {
+        opacity: 1;
+    }
+    66% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes fade-out {
+    33% {
+        opacity: 1;
+    }
+    66% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade-out {
+    33% {
+        opacity: 1;
+    }
+    66% {
+        opacity: 0;
+    }
+}
+
+/*********************************/
+/*MEDIA QUERIES*/
+/*********************************/
+@media (max-width: 992px) {
+    /* line 123, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+    .NesSlider .text-slider {
+        max-width: 100%;
+        align-items: center;
+        margin-left: 0;
+        text-align: center;
+        padding: 20px;
+    }
+
+    /* line 129, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+    .NesSlider .text-slider h1 {
+        font-size: 3em;
+    }
+
+    /* line 132, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+    .NesSlider .text-slider h2 {
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 767px) {
+    /* line 140, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+    .NesSlider {
+        height: 60vh;
+    }
+
+    /* line 143, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+    .NesSlider .text-slider h1 {
+        font-size: 1.8em;
+    }
+
+    /* line 146, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+    .NesSlider .text-slider h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 564px) {
+    /* line 156, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+    .NesSlider .text-slider h1 {
+        font-size: 1.5em;
+    }
+
+    /* line 159, ../../../../../Users/Skalv/Desktop/scss/components/slider.scss */
+    .NesSlider .text-slider h2 {
+        font-size: 1em;
+    }
+}
+
+/*COULEURS*/
+/* line 10, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header {
+    background: transparent;
+    /* Old browsers */
+    /*background: -moz-linear-gradient(top, #ffffff 0%, #eeeeee 100%); /* FF3.6-15 */
+    /*background: -webkit-linear-gradient(top, #ffffff 0%,#eeeeee 100%); /* Chrome10-25,Safari5.1-6 */
+    /*background: linear-gradient(to bottom, #ffffff 0%,#eeeeee 100%);  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    /*li*/
+    /*li a*/
+    /*Deuxième niveau de menu (li a div)*/
+    /*Réseaux sociaux*/
+}
+
+/* line 19, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .navbar {
+    padding: 0.5rem 2rem;
+    /*LOGO*/
+}
+
+/* line 22, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .navbar .navbar-brand {
+    position: relative;
+}
+
+/* line 24, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .navbar .navbar-brand::before {
+    content: '';
+    background: #fff;
+    width: 300px;
+    left: -100px;
+    bottom: -20px;
+    height: 300px;
+    border-radius: 45px;
+    transform: rotate(10deg);
+    position: absolute;
+    z-index: -1;
+}
+
+/* line 39, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .nav-item::before {
+    display: none;
+}
+
+/* line 43, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .nav-link {
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 30px;
+    position: relative;
+    font-size: 0.9em;
+}
+
+/* line 49, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .nav-link::before, #Header .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    opacity: 0;
+    border: 2px solid #d94f5c;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    -webkit-transition-timing-function: cubic-bezier(0.17, 0.67, 0.05, 1.29);
+    transition-timing-function: cubic-bezier(0.17, 0.67, 0.05, 1.29);
+}
+
+/* line 61, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .nav-link::before {
+    top: 0;
+    left: 0;
+    border-width: 2px 0 0 2px;
+    -webkit-transform: translate3d(10px, 10px, 0);
+    transform: translate3d(10px, 10px, 0);
+}
+
+/* line 68, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .nav-link::after {
+    right: 0;
+    bottom: 0;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: translate3d(-10px, -10px, 0);
+    transform: translate3d(-10px, -10px, 0);
+}
+
+/* line 75, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .nav-link:hover {
+    color: #fff;
+}
+
+/* line 78, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .nav-link:hover::before, #Header .nav-link:hover::after {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+/* line 85, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .dropdown-menu {
+    border: 0;
+    margin: 0;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.2);
+    z-index: 70;
+    display: none;
+}
+
+/* line 91, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .dropdown-menu::before {
+    position: absolute;
+    content: "";
+    top: -0.625rem;
+    right: calc(60px + 0.15em);
+    width: 0;
+    height: 0;
+    border-top: 0;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    border-left: 10px solid transparent;
+}
+
+/* line 103, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .dropdown-menu .dropdowncontent {
+    display: flex;
+}
+
+/* line 105, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .dropdown-menu .dropdowncontent div {
+    width: 100%;
+}
+
+/* line 109, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .dropdown-menu a.dropdown-item:not(:last-child) {
+    position: relative;
+    margin-right: 20px;
+    border-bottom: 1px solid #ececec;
+}
+
+/* line 115, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .dropdown:hover .dropdown-menu, #Header .dropdown:active .dropdown-menu {
+    display: block;
+}
+
+/* line 119, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .rs-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* line 122, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .rs-nav .nav-link {
+    margin: 0;
+    padding-right: 0;
+}
+
+/* line 125, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .rs-nav .nav-link::before, #Header .rs-nav .nav-link::after {
+    display: none;
+}
+
+/* line 128, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+#Header .rs-nav .nav-link:hover {
+    opacity: 0.5;
+}
+
+/*********************************/
+/*MEDIA QUERIES*/
+/*********************************/
+@media (max-width: 1200px) {
+    /* line 142, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .dropdown-menu {
+        box-shadow: none;
+    }
+
+    /* line 144, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .dropdown-menu .dropdowncontent {
+        justify-content: space-around;
+    }
+
+    /* line 147, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .dropdown-menu::before {
+        display: none;
+    }
+
+    /* line 151, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .nav-link {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* line 159, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header {
+        position: relative;
+        background: -moz-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #ffffff 0%, #eeeeee 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    }
+
+    /* line 164, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .navbar-brand::before {
+        display: none;
+    }
+
+    /* line 167, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .nav-link {
+        text-transform: uppercase;
+        color: #194a7d;
+    }
+
+    /* line 171, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .navbar-collapse {
+        border-top: 1px solid lightgray;
+        background: #e8e8e8;
+        margin: 0 -30px;
+        padding: 0 15px;
+    }
+
+    /* line 176, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .navbar-collapse .nav-item:not(.rs-link) .nav-link {
+        border-bottom: 1px solid #d0d0d0;
+    }
+
+    /* line 178, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .navbar-collapse .nav-item:not(.rs-link) .nav-link::before, #Header .navbar-collapse .nav-item:not(.rs-link) .nav-link::after {
+        display: none;
+    }
+
+    /* line 183, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .navbar-collapse .dropdown.show .dropdown-menu {
+        display: block !important;
+        margin: 10px 0;
+        border-left: 5px solid #d0d0d0;
+        background-color: transparent;
+        border-radius: 0;
+    }
+
+    /* line 190, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .navbar-collapse .dropdown:hover .dropdown-menu {
+        display: none;
+    }
+
+    /* line 194, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .navbar-collapse .dropdown .dropdowncontent div {
+        width: 100%;
+    }
+
+    /* line 196, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .navbar-collapse .dropdown .dropdowncontent div a.dropdown-item:not(:last-child) {
+        border-bottom: 1px solid none;
+    }
+
+    /* line 199, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .navbar-collapse .dropdown .dropdowncontent div .dropdown-item:hover, #Header .navbar-collapse .dropdown .dropdowncontent div .dropdown-item:focus {
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 564px) {
+    /* line 210, ../../../../../Users/Skalv/Desktop/scss/components/header.scss */
+    #Header .navbar-brand img {
+        width: 70%;
+    }
+}
+
+/*COULEURS*/
+/* line 10, ../../../../../Users/Skalv/Desktop/scss/components/footer.scss */
+footer {
+    background-color: #fff;
+    border-top: 1px solid #e3e3e3;
+    padding: 50px 0;
+}
+
+/* line 14, ../../../../../Users/Skalv/Desktop/scss/components/footer.scss */
+footer .bloc-footer {
+    margin-bottom: 20px;
+}
+
+/* line 16, ../../../../../Users/Skalv/Desktop/scss/components/footer.scss */
+footer .bloc-footer h5 {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+/* line 23, ../../../../../Users/Skalv/Desktop/scss/components/footer.scss */
+footer .bloc-footer ul {
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+/* line 26, ../../../../../Users/Skalv/Desktop/scss/components/footer.scss */
+footer .bloc-footer ul li {
+    list-style: none;
+    padding: 5px 0;
+    font-size: 1em;
+    color: #848383;
+}
+
+/* line 31, ../../../../../Users/Skalv/Desktop/scss/components/footer.scss */
+footer .bloc-footer ul li::before {
+    display: none;
+}
+
+/* line 34, ../../../../../Users/Skalv/Desktop/scss/components/footer.scss */
+footer .bloc-footer ul li a {
+    color: #848383;
+}
+
+/* line 36, ../../../../../Users/Skalv/Desktop/scss/components/footer.scss */
+footer .bloc-footer ul li a:hover {
+    color: #194a7d;
+    margin-left: 3px;
+}
+
+/* line 44, ../../../../../Users/Skalv/Desktop/scss/components/footer.scss */
+footer .copyright {
+    border-top: 1px solid #e3e3e3;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+/*********************************/
+/*MEDIA QUERIES*/
+/*********************************/
+@media (max-width: 564px) {
+    /* line 57, ../../../../../Users/Skalv/Desktop/scss/components/footer.scss */
+    footer .bloc-footer {
+        text-align: center;
+    }
+
+    /* line 60, ../../../../../Users/Skalv/Desktop/scss/components/footer.scss */
+    footer .copyright {
+        margin-top: 0;
+        padding-top: 0;
+    }
+}
+
+/*COULEURS*/
+/* line 15, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.content {
+    padding: 100px 0;
+}
+
+/*SERVICES*/
+/* line 20, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services {
+    background-color: #f5f5f5;
+    padding: 100px 35px;
+}
+
+/* line 23, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services {
+    margin-top: 70px;
+}
+
+/* line 25, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service {
+    background-color: #fff;
+    box-shadow: 0px 16px 34px -9px rgba(38, 38, 38, 0.3);
+    padding-bottom: 20px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    min-height: 325px;
+    position: relative;
+    transition: all 0.2s;
+}
+
+/* line 34, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service .img-service {
+    margin-bottom: 30px;
+    position: relative;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* line 41, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service .img-service .title-service {
+    position: absolute;
+    z-index: 999;
+}
+
+/* line 44, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service .img-service .title-service a {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    font-weight: 100;
+    font-size: 1em;
+    left: 0;
+    position: relative;
+}
+
+/* line 53, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service .img-service .title-service a::after {
+    content: ">";
+    opacity: 0;
+    right: -35px;
+    top: 4px;
+    color: #3b526b;
+    position: absolute;
+    padding: 3px 12px;
+    background-color: #fff;
+}
+
+/* line 63, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service .img-service .title-service a:hover {
+    background: rgba(0, 0, 0, 0.9);
+    border: 2px solid rgba(0, 0, 0, 0.9);
+}
+
+/* line 67, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service .img-service .title-service a:hover::after {
+    right: -28px;
+}
+
+/* line 72, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service .img-service img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+/* line 78, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service .text-service {
+    padding: 0 20px;
+}
+
+/* line 81, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service .description-service {
+    font-size: 0.8em;
+}
+
+/* line 84, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 15px 42px 0px rgba(38, 38, 38, 0.2);
+}
+
+/* line 87, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service:hover .title-service a {
+    left: -10px !important;
+}
+
+/* line 89, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-services .container-services .block-service:hover .title-service a::after {
+    opacity: 1;
+    right: -20px;
+    top: 4px;
+}
+
+/*PHILOSOPHIE*/
+/* line 101, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-philosophie {
+    position: relative;
+    z-index: 999;
+}
+
+/* line 104, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-philosophie .container-philosophie {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* line 108, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-philosophie .container-philosophie .text-philosophie {
+    background-color: #fff;
+    padding: 35px;
+    margin-left: -10%;
+    width: 39%;
+    position: relative;
+    box-shadow: 0px 33px 106px -35px rgba(0, 0, 0, 0.3);
+}
+
+/* line 116, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-philosophie .container-philosophie .img-philosophie {
+    margin-left: 0%;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 50%;
+    box-shadow: 0px 13px 48px 0px rgba(0, 0, 0, 0.4);
+}
+
+/* line 124, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-philosophie .container-philosophie h3 {
+    margin-bottom: 64px;
+}
+
+/* line 127, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-philosophie .container-philosophie button {
+    margin-top: 35px;
+}
+
+/*PROXIMITE*/
+/* line 134, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-proximite {
+    background: url("/images/background-proximite.jpg") no-repeat top center;
+    background-size: cover;
+    margin-top: -150px;
+    padding-top: 220px;
+    position: relative;
+}
+
+/* line 140, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-proximite .container-proximite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+/* line 146, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-proximite .container-proximite .text-proximite {
+    padding: 50px;
+}
+
+/* line 148, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-proximite .container-proximite .text-proximite .rs-icon {
+    display: inline;
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: transparent;
+    border-radius: 50%;
+    font-size: 1.3em;
+}
+
+/* line 155, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-proximite .container-proximite .text-proximite .rs-icon.facebook {
+    border: 2px solid #4267B2;
+    color: #4267B2;
+}
+
+/* line 156, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-proximite .container-proximite .text-proximite .rs-icon.twitter {
+    border: 2px solid #1DA1F2;
+    color: #1DA1F2;
+}
+
+/* line 157, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-proximite .container-proximite .text-proximite .rs-icon.instagram {
+    border: 2px solid #C62D8F;
+    color: #C62D8F;
+}
+
+/* line 158, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-proximite .container-proximite .text-proximite .rs-icon.linkedin {
+    border: 2px solid #0077B5;
+    color: #0077B5;
+}
+
+/* line 161, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-proximite .container-proximite .img-proximite {
+    position: relative;
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* line 167, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-proximite .container-proximite h3 {
+    margin-bottom: 64px;
+}
+
+/*PARTENAIRES*/
+/* line 174, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-partenaires {
+    background: url("/images/background-partenaire.jpg") no-repeat #f4f4f4;
+    background-size: cover;
+}
+
+/* line 177, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-partenaires h4 {
+    color: #174371;
+}
+
+/* line 180, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-partenaires .bloc-partenaires {
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 21px 52px 0px rgba(0, 0, 0, 0.14);
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* line 189, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-partenaires .bloc-partenaires img {
+    padding: 20px;
+}
+
+/* line 193, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-partenaires .bloc-call-to-action {
+    border-top: 3px solid #c4c3c3;
+    margin-top: 70px;
+    padding: 40px 0;
+}
+
+/* line 197, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+section.section-partenaires .bloc-call-to-action .btn {
+    font-size: 1.5em;
+    padding: 15px 35px;
+}
+
+/*********************************/
+/*MEDIA QUERIES*/
+/*********************************/
+@media (max-width: 1200px) {
+    /*SERVICES*/
+    /* line 210, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-services .container-services .block-service .img-service .title-service a {
+        padding: 10px 15px;
+    }
+
+    /*PHILOSOPHIE & PROXIMITE*/
+    /* line 216, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-philosophie .container-philosophie .text-philosophie {
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /* line 221, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-philosophie .container-philosophie .img-philosophie {
+        width: 80%;
+    }
+
+    /* line 224, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-philosophie .container-philosophie h3 {
+        margin: 0 auto;
+        margin-bottom: 64px;
+    }
+
+    /* line 228, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-philosophie .container-philosophie button {
+        margin-top: 35px;
+    }
+
+    /* line 234, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-proximite .container-proximite .img-proximite, section.section-philosophie .container-philosophie .img-philosophie {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    /* line 240, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-proximite .container-proximite .text-proximite {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    /* line 247, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    #Header .rs-nav {
+        display: flex;
+        position: absolute;
+        justify-content: stretch;
+        bottom: 0;
+        right: 50px;
+    }
+
+    /* line 255, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-proximite {
+        margin-top: 0;
+        padding-top: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* line 262, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    #Header .rs-nav {
+        position: unset;
+        justify-content: space-around;
+    }
+
+    /* line 267, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.content {
+        padding: 50px 0;
+    }
+
+    /*SERVICES*/
+    /* line 272, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-services {
+        padding-bottom: 30px;
+    }
+
+    /*PHILOSOPHIE & PROXIMITE*/
+    /* line 277, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-philosophie {
+        padding-top: 30px;
+    }
+
+    /* line 281, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-proximite .container-proximite .img-proximite, section.section-philosophie .container-philosophie .img-philosophie {
+        max-width: 100%;
+    }
+
+    /*PARTENAIRES*/
+    /* line 286, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-partenaires {
+        background: #f4f4f4;
+    }
+}
+
+@media (max-width: 564px) {
+    /* line 292, ../../../../../Users/Skalv/Desktop/scss/accueil.scss */
+    section.section-proximite .container-proximite .text-proximite {
+        padding: 30px 15px;
+    }
+}
+
+/*COULEURS*/
+/* line 10, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+body {
+    background-color: #f5f5f5;
+}
+
+/*Titre de la page*/
+/* line 15, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.header-page {
+    position: relative;
+    min-height: 30vh;
+    overflow: hidden;
+    background: url("/images/slider/banner-2.jpg") no-repeat center center #000;
+    background-size: cover;
+    padding: 35px 15px 25px 15px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* line 25, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.header-page::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(24, 53, 76, 0.6);
+    z-index: 0;
+}
+
+/* line 35, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.header-page .title-page {
+    justify-content: start;
+    align-items: center;
+}
+
+/* line 38, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.header-page .title-page h1 {
+    font-size: 3em;
+    color: #3b526b;
+    font-family: "Roboto";
+    font-weight: 300;
+    position: relative;
+    color: #fff;
+    text-align: left;
+    z-index: 999;
+}
+
+/* line 47, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.header-page .title-page h1::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #d94f5c;
+    bottom: -5px;
+    right: -20px;
+    border-width: 0 3px 3px 0;
+}
+
+/* line 57, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.header-page .title-page h1::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #d94f5c;
+    top: -10px;
+    left: -10px;
+    border-width: 3px 0 0 3px;
+}
+
+/* line 68, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.header-page .title-page h1.landing::after {
+    content: '';
+    position: absolute;
+    background-color: #d8d8d8;
+    border-radius: 50px;
+    width: 43px;
+    height: 4px;
+    bottom: -30px;
+    left: 0;
+}
+
+/* line 82, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.header-page h2 {
+    font-size: 1.3em;
+    color: #4d4d4d;
+}
+
+/* line 86, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.header-page img {
+    height: auto;
+    width: 100%;
+    opacity: 0.7;
+}
+
+/*Container principal de la page*/
+/* line 94, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page {
+    margin: 20px auto 90px auto;
+}
+
+/* line 96, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page a:not(.btn) {
+    color: #d94f5c;
+    position: relative;
+}
+
+/* line 99, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page a:not(.btn):hover {
+    color: #194a7d;
+}
+
+/* line 101, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page a:not(.btn):hover::after {
+    width: 50%;
+    left: 25%;
+    background: #194a7d;
+}
+
+/* line 107, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page a:not(.btn)::after {
+    content: '';
+    background: #d94f5c;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    position: absolute;
+}
+
+/*Image principale de la page*/
+/* line 120, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.image-principale {
+    width: 100%;
+    height: auto;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+/* line 125, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.image-principale img {
+    width: 100%;
+    height: auto;
+}
+
+/*PAGE TARIFS*/
+/* line 132, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan {
+    margin-top: 70px;
+    display: none;
+}
+
+/* line 135, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan.visible {
+    display: block;
+}
+
+/* line 138, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan {
+    background-color: #fff;
+    box-shadow: 0px 16px 34px -9px rgba(38, 38, 38, 0.3);
+    padding: 0;
+    margin: 20px 0 50px 0;
+    transition: 0.2s all;
+}
+
+/* line 144, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .img-plan {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* line 150, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .img-plan .image-plan {
+    width: 100%;
+}
+
+/* line 152, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .img-plan .image-plan img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+/* line 159, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .title-plan {
+    font-size: 1em;
+    margin-bottom: 30px;
+    position: absolute;
+    z-index: 999;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    font-weight: 100;
+}
+
+/* line 170, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .description-plan {
+    font-size: 1em;
+    margin-bottom: 50px;
+    padding: 0 20px;
+}
+
+/* line 174, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .description-plan .tarifs-plan {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #4d4d4d;
+}
+
+/* line 180, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .description-plan .tarifs-plan .prix-plan {
+    border-bottom: 1px solid #eee;
+    margin: 0;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+/* line 186, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .description-plan .tarifs-plan .prix-plan p {
+    margin: 0;
+    padding: 0;
+}
+
+/* line 189, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .description-plan .tarifs-plan .prix-plan p .date-plan {
+    position: relative;
+    font-size: 1em;
+}
+
+/* line 193, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .description-plan .tarifs-plan .prix-plan p .prix {
+    position: relative;
+    font-size: 2.3em;
+    line-height: 1;
+    color: #444444;
+}
+
+/* line 198, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .description-plan .tarifs-plan .prix-plan p .prix small {
+    font-size: 0.5em;
+}
+
+/* line 202, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .description-plan .tarifs-plan .prix-plan p .periode {
+    display: block;
+    font-size: 0.7em;
+    font-weight: 400;
+}
+
+/* line 211, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .description-plan ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* line 214, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .description-plan ul li {
+    margin: 7px 0;
+    color: #7a7a7a;
+}
+
+/* line 220, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 15px 42px 0px rgba(38, 38, 38, 0.2);
+}
+
+/* line 225, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .btn-plan {
+    padding: 30px;
+    border-top: 1px solid #eee;
+}
+
+/* line 228, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .btn-plan a:hover {
+    color: #fff;
+}
+
+/* line 232, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list {
+    background-color: #fff;
+    box-shadow: 0px 16px 34px -9px rgba(38, 38, 38, 0.3);
+    padding: 0;
+    margin: 20px 0 50px 0;
+    transition: 0.2s all;
+}
+
+/* line 238, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item {
+    margin: 15px 5px;
+    position: relative;
+}
+
+/* line 241, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item:not(:first-child) {
+    margin-top: 30px;
+}
+
+/* line 243, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item:not(:first-child)::before {
+    content: "";
+    width: 30%;
+    border-top: 1px solid #eee;
+    position: absolute;
+    left: 35%;
+    top: -15px;
+}
+
+/* line 252, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item .date {
+    border-right: 1px solid #eee;
+    text-transform: uppercase;
+}
+
+/* line 255, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item .date p {
+    margin-bottom: 0;
+}
+
+/* line 257, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item .date p:first-child {
+    font-weight: 500;
+}
+
+/* line 262, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item .description {
+    border-right: 1px solid #eee;
+}
+
+/* line 264, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item .description p {
+    margin-bottom: 0;
+}
+
+/* line 266, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item .description p:first-child {
+    color: #3b526b;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* line 274, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item .info p {
+    margin: 0;
+    color: #4d4d4d;
+}
+
+/* line 277, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item .info p .price {
+    color: #444444;
+}
+
+/* line 281, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item .info .btn {
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+/*Modal minimakers*/
+/* line 291, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .modal-dialog {
+    max-width: 90%;
+    margin: 1rem auto;
+}
+
+/* line 294, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .modal-dialog .modal-content {
+    background: transparent;
+    border: none;
+}
+
+/* line 297, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .modal-dialog .modal-content header {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 999;
+}
+
+/* line 299, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .modal-dialog .modal-content header button {
+    opacity: 1;
+    font-size: 3em;
+    color: #3b3b3b;
+    background: #fff;
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+
+/* line 301, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .modal-dialog .modal-content footer {
+    display: none;
+}
+
+/*PAGE CONTACT*/
+/* line 308, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page .container-contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+}
+
+/* line 313, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page .container-contact .gmap-contact {
+    margin-left: 0%;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 50%;
+}
+
+/* line 320, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page .container-contact .form-contact {
+    margin-left: -10%;
+    margin-top: -100px;
+    width: 39%;
+    position: relative;
+}
+
+/* line 325, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page .container-contact .form-contact .form-container {
+    margin-top: 40px;
+    padding: 35px;
+    background-color: #fff;
+    box-shadow: 0px 33px 106px -35px rgba(0, 0, 0, 0.3);
+}
+
+/* line 331, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page .container-contact .form-contact button {
+    display: block;
+    margin: 0 auto;
+}
+
+/*PAGE INSCRIPTION MINIMAKER*/
+/* line 341, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page .container-registration {
+    margin-top: 100px;
+}
+
+/* line 343, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page .container-registration .form-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 35px;
+    background-color: #fff;
+    box-shadow: 0px 33px 106px -35px rgba(0, 0, 0, 0.3);
+}
+
+/* line 350, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page .container-registration .form-container .form-btn {
+    display: flex;
+    justify-content: center;
+}
+
+/*********************************/
+/*MEDIA QUERIES*/
+/*********************************/
+@media (max-width: 992px) {
+    /* line 364, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+    .header-page .title-page {
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* line 367, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+    .header-page .title-page h1 {
+        font-size: 2.3em;
+        text-align: center;
+    }
+
+    /*PHILOSOPHIE & PROXIMITE*/
+    /* line 375, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+    .container-page .container-contact {
+        margin-top: 0;
+    }
+
+    /* line 377, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+    .container-page .container-contact .form-contact {
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    /* line 383, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+    .container-page .container-contact .gmap-contact {
+        width: 100%;
+    }
+
+    /* line 385, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+    .container-page .container-contact .gmap-contact iframe {
+        height: 400px !important;
+    }
+
+    /*TARIFS*/
+    /* line 393, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+    .container-plan .btn-plan {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* line 399, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+    .header-page {
+        align-items: center;
+    }
+}
+
+@media (max-width: 564px) {
+    /* line 405, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+    .header-page .title-page h1 {
+        font-size: 2em;
+    }
+}
+
+/*# sourceMappingURL=main.css.map */
+
+/**************** Fin MAIN **********************/
+
+/**************** PAGES ***********************/
+
+/*COULEURS*/
+/* line 10, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+body {
+    background-color: #f5f5f5;
+}
+
+/*Titre de la page*/
+/* line 15, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.header-page {
+    position: relative;
+    min-height: 30vh;
+    overflow: hidden;
+    background: url("/images/slider/banner-2.jpg") no-repeat center center #000;
+    background-size: cover;
+    padding: 35px 15px 25px 15px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* line 25, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.header-page::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(24, 53, 76, 0.6);
+    z-index: 0;
+}
+
+/* line 35, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.header-page .title-page {
+    justify-content: start;
+    align-items: center;
+}
+
+/* line 38, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.header-page .title-page h1 {
+    font-size: 3em;
+    color: #3b526b;
+    font-family: "Roboto";
+    font-weight: 300;
+    position: relative;
+    color: #fff;
+    text-align: left;
+    z-index: 999;
+}
+
+/* line 47, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.header-page .title-page h1::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #d94f5c;
+    bottom: -5px;
+    right: -20px;
+    border-width: 0 3px 3px 0;
+}
+
+/* line 57, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.header-page .title-page h1::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #d94f5c;
+    top: -10px;
+    left: -10px;
+    border-width: 3px 0 0 3px;
+}
+
+/* line 68, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.header-page .title-page h1.landing::after {
+    content: '';
+    position: absolute;
+    background-color: #d8d8d8;
+    border-radius: 50px;
+    width: 43px;
+    height: 4px;
+    bottom: -30px;
+    left: 0;
+}
+
+/* line 82, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.header-page h2 {
+    font-size: 1.3em;
+    color: #4d4d4d;
+}
+
+/* line 86, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.header-page img {
+    height: auto;
+    width: 100%;
+    opacity: 0.7;
+}
+
+/*Container principal de la page*/
+/* line 94, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page {
+    margin: 20px auto 90px auto;
+}
+
+/* line 96, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page a:not(.btn) {
+    color: #d94f5c;
+    position: relative;
+}
+
+/* line 99, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page a:not(.btn):hover {
+    color: #194a7d;
+}
+
+/* line 101, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page a:not(.btn):hover::after {
+    width: 50%;
+    left: 25%;
+    background: #194a7d;
+}
+
+/* line 107, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page a:not(.btn)::after {
+    content: '';
+    background: #d94f5c;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    position: absolute;
+}
+
+/*Image principale de la page*/
+/* line 120, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.image-principale {
+    width: 100%;
+    height: auto;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+/* line 125, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.image-principale img {
+    width: 100%;
+    height: auto;
+}
+
+/*PAGE TARIFS*/
+/* line 132, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan {
+    margin-top: 70px;
+    display: none;
+}
+
+/* line 135, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan.visible {
+    display: block;
+}
+
+/* line 138, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan {
+    background-color: #fff;
+    box-shadow: 0px 16px 34px -9px rgba(38, 38, 38, 0.3);
+    padding: 0;
+    margin: 20px 0 50px 0;
+    transition: 0.2s all;
+}
+
+/* line 144, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .img-plan {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* line 150, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .img-plan .image-plan {
+    width: 100%;
+}
+
+/* line 152, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .img-plan .image-plan img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+/* line 159, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .title-plan {
+    font-size: 1em;
+    margin-bottom: 30px;
+    position: absolute;
+    z-index: 999;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    font-weight: 100;
+}
+
+/* line 170, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .description-plan {
+    font-size: 1em;
+    margin-bottom: 50px;
+    padding: 0 20px;
+}
+
+/* line 174, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .description-plan .tarifs-plan {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #4d4d4d;
+}
+
+/* line 180, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .description-plan .tarifs-plan .prix-plan {
+    border-bottom: 1px solid #eee;
+    margin: 0;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+/* line 186, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .description-plan .tarifs-plan .prix-plan p {
+    margin: 0;
+    padding: 0;
+}
+
+/* line 189, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .description-plan .tarifs-plan .prix-plan p .date-plan {
+    position: relative;
+    font-size: 1em;
+}
+
+/* line 193, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .description-plan .tarifs-plan .prix-plan p .prix {
+    position: relative;
+    font-size: 2.3em;
+    line-height: 1;
+    color: #444444;
+}
+
+/* line 198, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .description-plan .tarifs-plan .prix-plan p .prix small {
+    font-size: 0.5em;
+}
+
+/* line 202, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .description-plan .tarifs-plan .prix-plan p .periode {
+    display: block;
+    font-size: 0.7em;
+    font-weight: 400;
+}
+
+/* line 211, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .description-plan ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* line 214, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan .description-plan ul li {
+    margin: 7px 0;
+    color: #7a7a7a;
+}
+
+/* line 220, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-plan:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 15px 42px 0px rgba(38, 38, 38, 0.2);
+}
+
+/* line 225, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .btn-plan {
+    padding: 30px;
+    border-top: 1px solid #eee;
+}
+
+/* line 228, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .btn-plan a:hover {
+    color: #fff;
+}
+
+/* line 232, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list {
+    background-color: #fff;
+    box-shadow: 0px 16px 34px -9px rgba(38, 38, 38, 0.3);
+    padding: 0;
+    margin: 20px 0 50px 0;
+    transition: 0.2s all;
+}
+
+/* line 238, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item {
+    margin: 15px 5px;
+    position: relative;
+}
+
+/* line 241, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item:not(:first-child) {
+    margin-top: 30px;
+}
+
+/* line 243, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item:not(:first-child)::before {
+    content: "";
+    width: 30%;
+    border-top: 1px solid #eee;
+    position: absolute;
+    left: 35%;
+    top: -15px;
+}
+
+/* line 252, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item .date {
+    border-right: 1px solid #eee;
+    text-transform: uppercase;
+}
+
+/* line 255, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item .date p {
+    margin-bottom: 0;
+}
+
+/* line 257, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item .date p:first-child {
+    font-weight: 500;
+}
+
+/* line 262, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item .description {
+    border-right: 1px solid #eee;
+}
+
+/* line 264, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item .description p {
+    margin-bottom: 0;
+}
+
+/* line 266, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item .description p:first-child {
+    color: #3b526b;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* line 274, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item .info p {
+    margin: 0;
+    color: #4d4d4d;
+}
+
+/* line 277, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item .info p .price {
+    color: #444444;
+}
+
+/* line 281, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .bloc-list .bloc-list-item .info .btn {
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+/*Modal minimakers*/
+/* line 291, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .modal-dialog {
+    max-width: 90%;
+    margin: 1rem auto;
+}
+
+/* line 294, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .modal-dialog .modal-content {
+    background: transparent;
+    border: none;
+}
+
+/* line 297, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .modal-dialog .modal-content header {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 999;
+}
+
+/* line 299, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .modal-dialog .modal-content header button {
+    opacity: 1;
+    font-size: 3em;
+    color: #3b3b3b;
+    background: #fff;
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+
+/* line 301, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-plan .modal-dialog .modal-content footer {
+    display: none;
+}
+
+/*PAGE CONTACT*/
+/* line 308, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page .container-contact {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+}
+
+/* line 313, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.map {
+    margin-left: 0%;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 50%;
+}
+
+/* line 320, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page .container-contact .form-contact {
+    margin-left: -10%;
+    margin-top: -100px;
+    width: 39%;
+    position: relative;
+}
+
+/* line 325, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page .container-contact .form-contact .form-container {
+    margin-top: 40px;
+    padding: 35px;
+    background-color: #fff;
+    box-shadow: 0px 33px 106px -35px rgba(0, 0, 0, 0.3);
+}
+
+/* line 331, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page .container-contact .form-contact button {
+    display: block;
+    margin: 0 auto;
+}
+
+/*PAGE INSCRIPTION MINIMAKER*/
+/* line 341, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page .container-registration {
+    margin-top: 100px;
+}
+
+/* line 343, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page .container-registration .form-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 35px;
+    background-color: #fff;
+    box-shadow: 0px 33px 106px -35px rgba(0, 0, 0, 0.3);
+}
+
+/* line 350, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+.container-page .container-registration .form-container .form-btn {
+    display: flex;
+    justify-content: center;
+}
+
+/*********************************/
+/*MEDIA QUERIES*/
+/*********************************/
+@media (max-width: 992px) {
+    /* line 364, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+    .header-page .title-page {
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* line 367, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+    .header-page .title-page h1 {
+        font-size: 2.3em;
+        text-align: center;
+    }
+
+    /*PHILOSOPHIE & PROXIMITE*/
+    /* line 375, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+    .container-page .container-contact {
+        margin-top: 0;
+    }
+
+    /* line 377, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+    .container-page .container-contact .form-contact {
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    /* line 383, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+    .container-page .container-contact .gmap-contact {
+        width: 100%;
+    }
+
+    /* line 385, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+    .container-page .container-contact .gmap-contact iframe {
+        height: 400px !important;
+    }
+
+    /*TARIFS*/
+    /* line 393, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+    .container-plan .btn-plan {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* line 399, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+    .header-page {
+        align-items: center;
+    }
+}
+
+@media (max-width: 564px) {
+    /* line 405, ../../../../../Users/Skalv/Desktop/scss/page.scss */
+    .header-page .title-page h1 {
+        font-size: 2em;
+    }
+}
+
+/*# sourceMappingURL=page.css.map */
+
+/****************** Fin PAGES ************************/
+
+/****************** THEME ******************************/
+
+/*COULEURS*/
+/*RESEAUX SOCIAUX*/
+/*BALISES DE BASE*/
+/* line 17, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+body {
+    background: #FFF;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 1em;
+    color: #4d4d4d;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/* line 27, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+main {
+    display: block;
+}
+
+/* line 31, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+button, .btn, a, input[type="submit"], *::before, *::after {
+    transition: 0.2s all;
+}
+
+/* line 35, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+a {
+    color: #194a7d;
+}
+
+/* line 37, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+a:hover {
+    color: #3b526b;
+    text-decoration: none;
+}
+
+/* line 43, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+ul {
+    margin-left: 15px;
+}
+
+/* line 45, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+ul li {
+    list-style: none;
+    position: relative;
+    padding: 5px 0;
+}
+
+/* line 49, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+ul li::before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #d94f5c;
+    top: 15px;
+    left: -15px;
+    border-width: 2px 0 0 2px;
+}
+
+/*BREADCRUMB*/
+/* line 64, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+.breadcrumb a {
+    color: #194a7d !important;
+}
+
+/* line 66, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+.breadcrumb a::after {
+    display: none !important;
+}
+
+/*CLASSES REUTILISABLES*/
+/* line 73, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+.img-fluid {
+    width: 100%;
+}
+
+/* line 77, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+.text-important {
+    color: #255d99;
+}
+
+/* line 81, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+.center-block {
+    margin: 0 auto;
+}
+
+/* line 86, ../../../../../Users/Skalv/Desktop/scss/theme.scss */
+ul.sans-puces li::before {
+    display: none;
+}
+
+/*# sourceMappingURL=theme.css.map */
+
+/************** Fin THEME ****************************/
+
+/************** IMAGES, BOUTON ********************/
+
+.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 400px;
+
+}
+
+
+div.header-page {
+    background:url("http://localhost/PhpstormProjects/supernes/wordpress/wp-content/uploads/2019/05/banner-2.jpg");
+}
+
+
+
+section.content.section-proximite{
+    background: url("http://localhost/PhpstormProjects/supernes/wordpress/wp-content/uploads/2019/05/background-proximite.jpg");
+}
